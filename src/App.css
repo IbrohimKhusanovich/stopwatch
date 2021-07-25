@@ -1,0 +1,119 @@
+body {
+  background:#078345;
+
+
+
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-section {
+  background: transparent;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.clock-holder {
+  width: 100%;
+  background: #fff;
+  margin: 30px auto;
+  position: relative;
+}
+
+
+.stopwatch {
+  padding: 60px 0px;
+  text-align: center;
+}
+.stopwatch .ds-span{
+  background:#ab7d00;
+  color: #fff;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.stopwatch .stopwatch-btn {
+  background: #fff;
+  margin-top: 30px;
+  margin-left: 5px;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 150px;
+  transition: background 1s;
+  cursor: pointer;
+}
+.stopwatch .stopwatch-btn-red{
+  border: 2px solid #C85454;
+  color: #C85454;
+}
+.stopwatch .stopwatch-btn-yel{
+  border: 2px solid #FFC900;
+  color: #FFC900;
+}
+
+.stopwatch .stopwatch-btn-gre{
+  border: 2px solid #ab7d00;
+  color: #ab7d00;
+}
+.stopwatch .stopwatch-btn-ble{
+  border: 2px solid #333;
+  color: #333;
+}
+.stopwatch .stopwatch-btn-red:hover {
+  background: #C85454;
+  border: 2px solid #C85454;
+  color: #fff;
+}
+.stopwatch .stopwatch-btn-yel:hover {
+  background: #FFC900;
+  border: 2px solid #FFC900;
+  color: #fff;
+}
+.stopwatch .stopwatch-btn-gre:hover {
+  background: #ab7d00;
+  border: 2px solid #ab7d00;
+  color: #fff;
+}
+.stopwatch .stopwatch-btn-ble:hover {
+  background: #333;
+  border: 2px solid #333;
+  color: #fff;
+}
+.interval{
+  display: flex;
+  font-size: 17px;
+  width: 70%;
+  margin: 1rem auto;
+  justify-content: space-between;
+}
+.int-num{
+  background-color: #2C3E50;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+
+}
+.int-el{
+  background: #00ABA9;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 5px;
+  color: #fff;
+}
